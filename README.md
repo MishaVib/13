@@ -37,7 +37,7 @@
 ## :shinto_shrine: Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/Misha_13_1//">Сборка в Jenkins</a>
 <p align="center">
-<img title="Jenkins Dashboard" src="images/screenshots/jenkins-dashboard.png">
+<img title="Jenkins Dashboard" src="images/screenshots/Jenkins.png">
 </p>
 
 ### Параметры сборки в Jenkins:
@@ -73,38 +73,38 @@ test
 ## :shinto_shrine: Allure отчет
 - ### Главный экран отчета
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screenshots/allure-main-page.png">
+<img title="Allure Overview Dashboard" src="images/screenshots/allure_report_1.png">
 </p>
 
 - ### Страница с проведенными тестами
 <p align="center">
-<img title="Allure Test Page" src="images/screenshots/allure-test-page.png">
+<img title="Allure Test Page" src="images/screenshots/allure_report_2.jpg">
 </p>
 
 ## :shinto_shrine: Интеграция с Allure TestOps
 - ### Экран с результатами запуска тестов
 <p align="center">
-<img title="TestOps Launch Page" src="images/screenshots/test-ops-launch-page.png">
+<img title="TestOps Launch Page" src="images/screenshots/allure_test_ops_1.png">
 </p>
 
 - ### Страница с тестами в TestOps
 <p align="center">
-<img title="TestOps tests page" src="images/screenshots/test-ops-tests-page.png">
+<img title="TestOps tests page" src="images/screenshots/allure_test_ops_2.png">
 </p>
 
 ## :shinto_shrine: Интеграция с Jira
 - ### Страница с задачей в Jira
 <p align="center">
-<img title="Jira issue" src="images/screenshots/jira-issue.png">
+<img title="Jira issue" src="images/screenshots/Jira_1.png">
 </p>
 
 ## :shinto_shrine: Отчет в Telegram
 <p align="center">
-<img title="Telegram notification message" src="images/screenshots/telegram-notification.png">
+<img title="Telegram notification message" src="images/screenshots/bot_telegramm.png">
 </p>
 
 ## :shinto_shrine: Видео примеры прохождения тестов
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/test-run.gif">
+  <img title="Selenoid Video" src="images/gif/test_success_example.gif">
 </p>
