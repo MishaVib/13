@@ -17,7 +17,7 @@ public class WildberriesTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Выбор локали")
+    @DisplayName("Наличие категории Хиты продаж")
     void consoleShouldNotHaveErrorsTest() {
         step("Открываем сайт", () -> {
             open("https://www.wildberries.ru/");
