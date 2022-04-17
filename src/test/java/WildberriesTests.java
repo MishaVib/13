@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 
-public class  First extends TestBase {
+public class WildberriesTests extends TestBase {
     @DisplayName("Открытие страницы")
     @Test
     void openPage() {
