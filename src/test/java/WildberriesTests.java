@@ -2,7 +2,9 @@
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import static com.codeborne.selenide.Selenide.*;
+
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 
@@ -28,7 +30,6 @@ public class WildberriesTests extends TestBase {
     }
 
 
-
     @Test
     @DisplayName("Результаты поиска")
     void localPoland() {
@@ -49,9 +50,9 @@ public class WildberriesTests extends TestBase {
             open("https://www.wildberries.ru/");
         });
         step("Отображение чата поддержки", () -> {
-        $("[aria-label='Онлайн чат']").click();
-        $("h2.chat__header").shouldBe(Condition.visible)
-                .shouldHave(Condition.text("Чат поддержки"));
+            $("[aria-label='Онлайн чат']").click();
+            $("h2.chat__header").shouldBe(Condition.visible)
+                    .shouldHave(Condition.text("Чат поддержки"));
         });
     }
 
@@ -65,8 +66,8 @@ public class WildberriesTests extends TestBase {
             $("[aria-label='Навигация по сайту'").click();
             $(".menu-burger__main-list").shouldBe(Condition.visible);
         });
-        }
     }
+}
 
 
 
